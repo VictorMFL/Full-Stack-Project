@@ -11,7 +11,7 @@ const config: Config = {
       colors: {
         primary: "#fff",
         text: "#FAFAFA",
-        secondary: "##F5F5F5",
+        secondary: "#F5F5F5",
         secondary2: "#DB4444",
         black: "#000",
         button01: "#00FF66"
