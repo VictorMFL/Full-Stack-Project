@@ -1,10 +1,9 @@
 import type { Metadata } from "next";
-import "../styles/globals.css";
-import Header from "@/components/Header/Header";
+import "../../styles/globals.css";
 
 export const metadata: Metadata = {
-  title: "Full Stack Project",
-  description: "My full stack project",
+  title: "Home",
+  description: "Home page of my full stack project",
 };
 
 export default function RootLayout({
@@ -15,7 +14,6 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body>
-        <Header />
         {children}
       </body>
     </html>
