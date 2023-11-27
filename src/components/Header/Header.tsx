@@ -9,7 +9,7 @@ const poppins = Poppins({
 
 const Header = () => {
   return (
-    <header className={`${poppins.className} w-full`}>
+    <header className={`${poppins.className} w-full border-b-[1px] border-black`}>
       <div className="w-full flex-center bg-black py-3 relative">
         <p className="text-text text-sm">
           Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!{" "}

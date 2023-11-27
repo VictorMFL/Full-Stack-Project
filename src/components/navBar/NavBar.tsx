@@ -52,7 +52,7 @@ const NavBar = () => {
             pathname === "/sing-up" &&
             "border-b-[1px] border-black border-opacity-50"
           }`}
-          href="/sing-up"
+          href="/sign-up"
         >
           Sign Up
         </Link>
