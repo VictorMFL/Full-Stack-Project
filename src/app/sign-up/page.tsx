@@ -6,6 +6,7 @@ import Input from "@/components/input/Input";
 import { FormEvent, useState } from "react";
 import Link from "next/link";
 import axios from "axios";
+import { url } from "@/api/api";
 
 const inter = Inter({
   weight: "500",
@@ -27,7 +28,7 @@ const SignUp = () => {
 
   async function postUser() {
     axios
-      .post("https://bd-full-stack-project.vercel.app/user", {
+      .post(url, {
         firstName: firstName,
         lastName: lastName,
         email: email,
