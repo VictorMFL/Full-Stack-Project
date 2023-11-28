@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "../styles/globals.css";
-import Header from "@/components/Header/Header";
+import Header from "@/components/header/Header";
 
 export const metadata: Metadata = {
   title: "Full Stack Project",

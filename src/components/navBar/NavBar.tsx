@@ -49,7 +49,7 @@ const NavBar = () => {
 
         <Link
           className={`${
-            pathname === "/sing-up" &&
+            pathname === "/sign-up" &&
             "border-b-[1px] border-black border-opacity-50"
           }`}
           href="/sign-up"
