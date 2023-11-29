@@ -32,7 +32,6 @@ const SignIn = () => {
   async function getUsers() {
     try {
       const { data } = await axios.get(urlUsers);
-      console.log(data);
       setAllUsers(data);
     } catch (error) {
       console.log(error);
